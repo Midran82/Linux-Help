@@ -1,5 +1,5 @@
-Want to make a linux help page
-Need input on what things to implement
+Want to make a linux help page,
+Need input on what things to implement,
 Help with code if there are things you think should change
 
 
