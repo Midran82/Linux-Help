@@ -7,3 +7,4 @@ Help with code if there are things you think should change
 # backup for future website
 # remove unused files and folders
 # remove branch 1st
+# add content to index file
