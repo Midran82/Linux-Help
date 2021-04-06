@@ -8,3 +8,5 @@ Help with code if there are things you think should change
 # remove unused files and folders
 # remove branch 1st
 # add content to index file
+# javascripting
+changed so the page load content from javascript
