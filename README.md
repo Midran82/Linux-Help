@@ -10,3 +10,4 @@ Help with code if there are things you think should change
 # add content to index file
 # javascripting
 changed so the page load content from javascript
+# revert javascripting
