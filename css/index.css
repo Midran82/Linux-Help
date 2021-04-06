@@ -1,0 +1,165 @@
+/*This css file is made by �yvind Fjellby June 2014*/
+/*Some of the code is not fully mine and therefore credited in code with link*/
+
+body, a, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+body {
+    background: black;
+    font: bold 13px Helvetica; line-height: 10px;
+    overflow:hidden;
+}
+h2 {
+    margin-top:0.5%;
+    font-size:1.5em;
+    text-align:center;
+}
+h4 {
+    margin-top:1.5%;
+    font-size: 15px;
+}
+article {
+    position:absolute;
+    display:block;
+    left: 125px;
+    right: 125px;
+    top:210px;
+    bottom: 15px;
+    border-bottom-style:solid;
+    border-color:green;
+    border-radius:10px;
+    color:lightgreen;
+    overflow:auto;
+}
+table {
+    color:lightgreen;
+    padding-top:5px;
+    word-wrap: break-word;
+    line-height:20px;
+}
+/*inspiration from http://www.codeproject.com/Tips/674478/Customize-Scrollbars-using-CSS start*/
+.scrollbar{
+float:left;
+}
+#ex3::-webkit-scrollbar{
+width:16px;
+background-color:black;
+border-radius:25px;
+} 
+#ex3::-webkit-scrollbar-thumb{
+background-color:green;
+border-radius:25px;
+}
+#ex3::-webkit-scrollbar-thumb:hover{
+background-color:lightgreen;
+border:1px solid green;
+}
+#ex3::-webkit-scrollbar-thumb:active{
+background-color:green;
+border:1px solid green;
+} 
+#ex3::-webkit-scrollbar-track{
+border:1px green solid;
+border-radius:10px;
+-webkit-box-shadow:0 0 6px green inset;
+} 
+/*inspiration from http://www.codeproject.com/Tips/674478/Customize-Scrollbars-using-CSS end*/
+section {
+    margin:5px 10px 15px 10px;
+}
+p{
+   padding-top:5px;
+   word-wrap: break-word;
+   line-height:20px;
+}
+font{ /*small text*/
+    font-size: 0.6em; 
+    font-weight: normal;    
+}
+div bigText {/*big text*/
+    font-size: 1.5em;
+    font-weight: Bolder;
+}
+navn, b {
+    font-weight: bold;
+}
+#banner h1 {font-size: 3.271em; line-height: .99;}
+#banner h1 a:link, #banner h1 a:visited {
+    color: Green;
+    display: block;
+    font-weight: bold;
+    margin: 0 0 .6em .2em;
+    text-decoration:none;
+    width: auto;
+    font-family:Helvetica, monospace;
+}
+#banner h1 a:hover, #banner h1 a:active{
+    background:none;
+    color: #660066;
+    text-shadow: none;
+}
+#banner h1 navn {
+    font-size: 0.5em; 
+    font-weight: normal;
+}
+/*inspiration from http://line25.com/tutorials/how-to-create-a-pure-css-dropdown-menu start*/
+
+nav {
+    margin: 25px; 
+    text-align: center;
+}
+nav ul ul {
+    display: none;
+    z-index: 10;
+}
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul {
+    background: green;
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    padding: 0 55px;
+    border-radius: 10px;  
+    list-style: none;
+    position: relative;
+    display: inline-table;
+}
+nav ul:after {
+    content: ""; clear: both; display: block;
+}
+nav ul li {
+    float: left;
+}
+nav ul li:hover {
+    background: lightgreen;
+}
+nav ul li:hover a {
+    color: black;
+}		
+nav ul li a {
+    display: block; padding: 25px 40px;
+    color: black; text-decoration: none;
+}			
+nav ul ul {
+    background: lightgreen; border-radius: 0px; padding: 0;
+    position: absolute; top: 100%;
+}
+nav ul ul li {
+    float: none; 
+    border-top: 1px solid #6b727c;
+    border-bottom: 1px solid #575f6a; position: relative;
+}
+nav ul ul li a {
+    padding: 15px 40px;
+    color: #fff;
+}	
+nav ul ul li a:hover {
+    background: green; /*undermenu color*/
+}		
+nav ul ul ul {
+    position: absolute; left: 100%; top:0;
+}
+
+/* inspiration from http://line25.com/tutorials/how-to-create-a-pure-css-dropdown-menu end*/		
+
+/* The contact form start*/
